@@ -3,13 +3,13 @@
 	"id": "hydrophobic-elytra",
 	"version": "${version}",
 	"name": "Hydrophobic Elytra",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "With this mod players will not be able to fly with the Elytra under the fluids",
 	"authors": [
-		"Me!"
+		"Paravel"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/SrParavel/HydrophobicElytra"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/hydrophobic-elytra/icon.png",
