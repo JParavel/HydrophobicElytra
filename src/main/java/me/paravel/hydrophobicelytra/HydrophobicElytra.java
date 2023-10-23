@@ -13,7 +13,7 @@ public class HydrophobicElytra implements ModInitializer {
 		EntityElytraEvents.CUSTOM.register((entity, tickElytra) -> {
 
 			if (entity instanceof PlayerEntity playerEntity){
-				if (playerEntity.isInFluid()){
+				if (playerEntity.isInLava() || playerEntity.isSubmergedInWater()){
 					playerEntity.stopFallFlying();
 				}
 			}
